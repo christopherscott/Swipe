@@ -69,10 +69,10 @@
 
 <script src='swipe.js'></script>
 <script>
-new Swipe(document.getElementById('slider'));
-new Swipe(document.getElementById('slider2'));
-var slider3 = new Swipe(document.getElementById('slider3'));
-var slider4 = new Swipe(document.getElementById('slider4'));
+window.swipe1 = new Swipe(document.getElementById('slider'), {edgeBuffer: 20});
+window.swipe2 = new Swipe(document.getElementById('slider2'), {edgeBuffer: 20});
+window.swipe3 = new Swipe(document.getElementById('slider3'), {edgeBuffer: 20});
+window.swipe4 = new Swipe(document.getElementById('slider4'), {edgeBuffer: 20});
 </script>
 
 </body> 
